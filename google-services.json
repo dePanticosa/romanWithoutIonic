@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1042367648044",
+    "firebase_url": "https://romanwithoutionic.firebaseio.com",
+    "project_id": "romanwithoutionic",
+    "storage_bucket": "romanwithoutionic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042367648044:android:58f9f3f4130fa287",
+        "android_client_info": {
+          "package_name": "com.romanwithoutionic.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEBtYKjg427dCa-FiMoY_2yQDRKnQNpqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042367648044-e06osjdgne6t7mharq2on7gj6lnv0kot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

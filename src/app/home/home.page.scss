@@ -1,1 +1,59 @@
+.wrapper {
+  background-color: #1abc9c;
+}
+.alarm {
+  background-color: red;
+}
+.disabled {
+  background: black;
+  pointer-events: none;
+}
+.title {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+}
+
+.amount {
+  position: relative;
+  .counter {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    h1{
+      font-size: 20px;
+      font-weight: 800;
+    }
+  }
+  .container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn {
+      background: red;
+      border: 3px solid #fff;
+      border-radius: 100%;
+      box-shadow: 0 -2px 0 3px #e2263b inset, 0 5px 5px rgba(0, 7, 1, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 75px;
+      width: 75px;
+    }
+
+    .btn:active {
+      box-shadow: 0 2px 0 3px #e2263b inset, 0 5px 34px rgba(0, 7, 1, 0.17), 0 11px rgba(255, 255, 255, 0.25) inset;
+    }
+  }
+}
 
